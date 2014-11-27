@@ -1,11 +1,14 @@
 // --
 
 #include <iostream>
+#include <string>
 
 int
 main()
 {
-	std::cout << "Hello, world!" << std::endl;
+	const std::string welcome = R"(Hello,
+world!)";
+	std::cout << welcome << std::endl;
 	return EXIT_SUCCESS;
 }
 
