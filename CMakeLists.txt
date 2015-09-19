@@ -2,7 +2,7 @@
 
 cmake_minimum_required(VERSION 2.8)
 
-project(Git-playground)
+project(Git-playground) # TODO: Split as in ABcb
 
 set(SRC_LIST
 	main.cpp
