@@ -2,7 +2,9 @@
 
 cmake_minimum_required(VERSION 2.8)
 
-project(Git-playground) # TODO: Split as in ABcb
+set(PROJECT_NAME "Git-playground")
+set(PROJECT_TYPE "CXX")
+project(${PROJECT_NAME} ${PROJECT_TYPE})
 
 set(SRC_LIST
 	main.cpp
